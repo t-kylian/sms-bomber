@@ -4,17 +4,19 @@ import requests
 
 from icon import ICON
 
-from PyQt5.QtCore import Q_ARG, QMetaObject, QRunnable,QByteArray, Qt, QThreadPool
+from PyQt5.QtCore import Q_ARG, QMetaObject, QRunnable, QByteArray, Qt, QThreadPool
 from PyQt5.QtGui import QCloseEvent, QIcon, QPixmap
 from PyQt5.QtWidgets import (
     QApplication, QLabel, QLineEdit, QMainWindow,
     QPushButton, QTextEdit, QVBoxLayout, QWidget
 )
 
+
 def icon_from_base64(icon):
     pixmap = QPixmap()
     pixmap.loadFromData(QByteArray.fromBase64(icon))
     return QIcon(pixmap)
+
 
 class OqtepaSpammerApp(QMainWindow):
     def __init__(self):
