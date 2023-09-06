@@ -13,12 +13,11 @@ Before running the application, make sure you have the following dependencies in
 - Python 3.x
 - PyQt5
 - requests
-- fake_useragent
 
 You can install these dependencies using the following command:
 
 ```
-pip install PyQt5 requests fake_useragent
+pip install PyQt5 requests
 ```
 
 ## Getting Started
