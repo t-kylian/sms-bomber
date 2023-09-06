@@ -4,7 +4,7 @@ import requests
 from fake_useragent import UserAgent
 
 from PyQt5.QtCore import Q_ARG, QMetaObject, QRunnable, Qt, QThreadPool
-from PyQt5.QtGui import QCloseEvent
+from PyQt5.QtGui import QCloseEvent, QIcon
 from PyQt5.QtWidgets import (
     QApplication, QLabel, QLineEdit, QMainWindow,
     QPushButton, QTextEdit, QVBoxLayout, QWidget
@@ -24,6 +24,7 @@ class OqtepaSpammerApp(QMainWindow):
         self.number = None
         super().__init__()
 
+        self.setWindowIcon(QIcon("icon.png"))
         self.setWindowTitle("OqTepa Spammer")
         self.setFixedSize(400, 400)
 
@@ -107,7 +108,7 @@ class SpammerTask(QRunnable):
 if __name__ == "__main__":
     app = QApplication(sys.argv)
 
-    phone_log_app = OqtepaSpammerApp()
-    phone_log_app.show()
+    phone_spam_app = OqtepaSpammerApp()
+    phone_spam_app.show()
 
     sys.exit(app.exec_())
