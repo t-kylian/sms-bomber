@@ -31,7 +31,7 @@ To get started with the OqTepa Spammer, follow the steps below:
 4. Run the following command to start the application:
 
    ```
-   python <filename>.py
+   python spammer.py
    ```
 
    Replace `<filename>` with the name of the Python file containing the code.
