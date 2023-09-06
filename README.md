@@ -1,7 +1,7 @@
 # OqTepa Spammer
 
 <p align='right'>
-  <img align="right" src='https://github.com/temurbeksamijonov/sms-bomber/assets/131855957/c0c13c05-494e-41a8-bc7a-a6701557f8fc'>
+  <img align="right" src='https://github.com/temurbeksamijonov/sms-bomber/assets/131855957/7457112b-bb59-41dc-a28c-6e688dde1933'>
 </p>
 
 OqTepa Spammer is a Python application built with PyQt5 that allows you to send multiple spam SMS messages to a given phone number using the OqTepa API. It utilizes multithreading to send messages concurrently, improving the efficiency of the spamming process.
