@@ -6,6 +6,10 @@
 
 OqTepa Spammer is a Python application built with PyQt5 that allows you to send multiple spam SMS messages to a given phone number using the OqTepa API. It utilizes multithreading to send messages concurrently, improving the efficiency of the spamming process.
 
+## Disclaimer: Use of OqTepa Spammer
+
+The OqTepa Spammer app is for educational purposes only. It must not be used for illegal or malicious activities. You are solely responsible for your actions. We provide no warranties, and you release us from any liability for consequences arising from its use. Please ensure compliance with local laws and ethical conduct.
+
 ## Prerequisites
 
 Before running the application, make sure you have the following dependencies installed:
